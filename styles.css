@@ -50,6 +50,10 @@ img.bulb {
     -webkit-tap-highlight-color: transparent; 
 }
 
+img.bulb:hover{
+    transform: scale(1.1);
+}
+
 .bulb.on {
     filter: drop-shadow(1px 1px 10px #ffeb3b);
 }
